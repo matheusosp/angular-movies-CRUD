@@ -4,7 +4,7 @@
   "description": "Curso avançado angular",
   "scripts": {
     "ng": "ng",
-    "start": "json-server --watch db.json",
+    "start": "ng serve",
     "build": "ng build",
     "test": "ng test",
     "lint": "ng lint",
