@@ -4,14 +4,21 @@
   "description": "Curso avançado angular",
   "scripts": {
     "ng": "ng",
-    "start": "ng serve",
+    "start": "json-server --watch db.json",
     "build": "ng build",
     "test": "ng test",
     "lint": "ng lint",
-    "e2e": "ng e2e"
+    "e2e": "ng e2e",
+    "heroku-postbuild": "ng build --prod"
+  },
+  "engines": {
+    "node": "12.19.0",
+    "npm": "6.14.10"
   },
   "private": true,
   "dependencies": {
+    "@angular/cli": "^11.0.5",
+    "@angular/compiler-cli": "^11.0.5",
     "@angular/animations": "^11.0.5",
     "@angular/cdk": "^8.2.0",
     "@angular/common": "^11.0.5",
@@ -31,7 +38,8 @@
     "ngx-infinite-scroll": "^8.0.1",
     "rxjs": "^6.0.0",
     "tslib": "^1.10.0",
-    "zone.js": "~0.10.3"
+    "zone.js": "~0.10.3",
+    "typescript": "~4.0.5"
   },
   "devDependencies": {
     "@angular-devkit/build-angular": "^0.1100.5",
@@ -44,6 +52,7 @@
     "@types/node": "~12.7.7",
     "angular-cli": "^1.0.0-beta.28.3",
     "codelyzer": "^5.0.1",
+    "enhanced-resolve": "^3.3.0",
     "jasmine-core": "~3.5.0",
     "jasmine-spec-reporter": "~4.2.1",
     "karma": "~4.3.0",
