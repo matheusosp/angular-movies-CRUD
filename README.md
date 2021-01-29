@@ -2,6 +2,22 @@
 
 O projeto consiste em um sistema de filmes, com a possibilidade de cadastros, edições, listagem e visualização dos filmes.
 
+![Product Gif](https://media3.giphy.com/media/If1RjmmSHxT9yPI6rU/giphy.gif)
+
+### TECHNOLOGIES
+- Typescript
+- NodeJS
+- Angular 
+- Angular Material
+- Json Server
+- NGX-Infinite-Scroll
+- RxJS 
+- Paginação 
+- Filtros 
+- Rest 
+- Parametrização
+
+
 ## Instalação
 
 1. clone o repositório `git clone git@github.com:matheusosp/angular-movies-CRUD.git`
